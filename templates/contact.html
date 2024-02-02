@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<h1 class="text-center">Contact Us</h1>
+<hr>
+
+<h4  class="text-center">Address</h4>
+<br>
+<p class="text-center" >Ananthapuri Hospitals and Research Institute</p>
+<p class="text-center" >Chacka, NH Bypass, Thiruvananthapuram - 695024</p>
+<p class="text-center" >Tel: 0471 - 2579900, 6609900</p>
+<p class="text-center" >Emergency : 0471- 2579901, 6609901</p>
+<p  class="text-center">Fax: 0471 - 2506969</p>
+<p  class="text-center">Email: ahri@ahri.in</p>
+
+<br>
+
+<h3 class="text-center">Get in touch</h3>
+<br>
+
+<div class="row">
+  <div class="col">
+    <input type="text" class="form-control text-center" placeholder="First name" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control text-center" placeholder="Last name" aria-label="Last name">
+  </div>
+</div>
+
+<br>
+
+<form>
+  <div class="mb-3 text-center">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+</form>
+
+<br>
+
+<div class="form-floating text-center">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+  <label for="floatingTextarea2">Message</label>
+</div>
+
+<br>
+<button type="submit" class="btn btn-primary">Submit</button>
+<br>
+<br>
+{% endblock %}
+
+
+
